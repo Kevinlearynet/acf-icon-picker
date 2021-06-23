@@ -1,14 +1,14 @@
 <?php
 /*
 Plugin Name: Advanced Custom Fields: Icon Picker
-Plugin URI: https://github.com/houke/acf-icon-picker
-Description: Allows you to pick an icon from a predefined list
+Plugin URI: https://github.com/kevinlearynet/acf-icon-picker
+Description: Allows you to pick icons from a media library taxonomy term
 Version: 1.9.0
-Author: Houke de Kwant
-Author URI: ttps://github.com/houke/
+Author: Kevin Leary
+Author URI: https://github.com/Kevinlearynet
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-GitHub Plugin URI: https://github.com/houke/acf-icon-picker
+GitHub Plugin URI: https://github.com/kevinlearynet/acf-icon-picker
 GitHub Branch: master
 */
 
