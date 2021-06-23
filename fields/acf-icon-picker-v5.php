@@ -39,7 +39,9 @@ class acf_field_icon_picker extends acf_field {
 
 		$this->svgs = array();
 
-		$files = array_diff(scandir($this->path), array('.', '..'));
+		$files = new WP_Query([
+                  'post_type' = attachment, tax_query media_types = icon
+                ]);
 		foreach ($files as $file) {
 			if( pathinfo($file, PATHINFO_EXTENSION) == 'svg' ){
 				$exploded = explode('.', $file);
